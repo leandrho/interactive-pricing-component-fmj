@@ -27,7 +27,7 @@ body{
     
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 45%;
     background-color: var(--Very-Pale-Blue-Main-Background);
 
     display: flex;
@@ -241,9 +241,6 @@ input#range::-webkit-slider-thumb:active {
     display: none;
 }
 @media screen and (max-width: 570px) {
-    body{
-        background-size: 100% 45%;
-    }
     .desktop{
         display: none;
     }
