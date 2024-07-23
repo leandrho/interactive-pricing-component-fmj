@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="h-title">Simple, traffic-based pricing</h1>
+      <p class="h-paragraph">Sign-up for our 30-day trial. No credit card required. </p>
+    </header>
+    <main class="component">
+      <div class="component-price">
+        <p class="component-view"><span class="views" id="views"></span> Pageviews</p>
+        <p class="component-curprice"><span class="price" id="price"></span>/ month</p>
+        <div class="component-rangebox">
+          <label for="range" aria-label="input range"></label>
+          <input type="range" name="range" id="range" class="component-range" min="0" max="4" value="2">
+        </div>
+        <div class="component-billing">
+            <p>Monthly Billing</p>
+            <button class="component-btn-slider" id="billbtn">
+              <div class="component-btn-slider-circle"></div>
+            </button>
+            <p>Yearly Billing</p>
+            <p class="component-discount mobile">25%</p>
+            <p class="component-discount desktop">25% discount</p>
+        </div>
+      </div>
+      <hr class="component-line"/>
+      <div class="component-start-trial">
+        <ul class="component-list">
+          <li><p>Unlimited websites</p></li>
+          <li><p>100% data ownership</p></li>
+          <li><p>Email reports</p></li>
+        </ul>
+        <button class="component-btn">Start my trial</button>
+      </div>
+     
+    </main>
+  </div>
+  
+
+ 
+  
+<script src="./script.js"></script>
+</body>
+</html>
