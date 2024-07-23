@@ -241,6 +241,9 @@ input#range::-webkit-slider-thumb:active {
     display: none;
 }
 @media screen and (max-width: 570px) {
+    body{
+        background-size: 100% 45%;
+    }
     .desktop{
         display: none;
     }
